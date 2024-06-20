@@ -96,7 +96,7 @@ static int[] arrayRevers(int[] array)
 }
 
 int[] array = {1, 5, 10, 20, 30, 40, 99, 4, 90, 3};
-Console.Write("Исходный массив: ");
+Console.Write("The source array: ");
 PrintArray(array);
-Console.Write("Перевернутый массив: ");
+Console.Write("Reverse array: ");
 PrintArray(arrayRevers(array));
